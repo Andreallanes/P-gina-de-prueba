@@ -93,3 +93,43 @@ a:hover
   border-color: #000000;
   width: fit-content;
 }
+
+.headernav
+{
+  display: flex;
+  position: relative;
+  left: 55%;
+  width: 15em;
+  height: 3em;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: #000000;
+  background-color: #55000F;
+  justify-content: center;
+}
+.navitem
+{
+  cursor: pointer;
+  width: 3.5em;
+  border-style: solid;
+  border-color: #000000;
+}
+.navitem :hover
+{
+  color: #000000;
+  background-color: #7E333F;
+}
+button
+{
+  display: block;
+  justify-content: center;
+  justify-items: center;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: #5E222F;
+  border-width: .1em;
+  background-color: #5A000F;
+  color: aliceblue;
+  width: fit-content;
+  margin: .5em;
+}
